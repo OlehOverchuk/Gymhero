@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+<body>
+    <header>
+        <h1>Please answer this next few questions</h1>
+        <nav>
+            <a href="index.html">Go back</a>
+        </nav>
+    </header>
+    <main>
+        <form method="POST" action="https://formspree.io/xvogznpo">
+            <label>First name:
+                <input type="text" placeholder="Name" name="name" required>
+            </label>
+            <br>
+            <label>Last name:
+                <input type="text" placeholder="Last name" name="name" required>
+            </label>
+            <br>
+            <label>Second name:
+                <input type="text" placeholder="Second name" name="name">
+            </label>
+            <br>
+            <label>Country you are from:
+                <input type="text" placeholder="Country" name="Country" required>
+            </label>
+            <br>
+            <label>Email:
+                <input type="email" placeholder="Email" name="email" required>
+            </label>
+            <br>
+            <label>Gender:
+                <input type="radio" name="gender" value="male">Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="animal">Animal
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">Other
+            </label>
+            <br>
+            <label>Are you:
+                 <input type="radio" name="are you" value="employd">Employd
+            </label>
+            <label> 
+                 <input type="radio" name="are you" value="uneployd">Unemployd
+            </label>
+            <br>
+            <label>Tell us about your self:
+                <textarea name="about you">  </textarea> 
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
