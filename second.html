@@ -9,9 +9,6 @@
 <body>
     <header>
         <h1>Please answer this next few questions</h1>
-        <nav>
-            <a href="index.html">Go back</a>
-        </nav>
     </header>
     <main>
         <form method="POST" action="https://formspree.io/xvogznpo">
@@ -27,12 +24,24 @@
                 <input type="text" placeholder="Second name" name="name">
             </label>
             <br>
-            <label>Country you are from:
-                <input type="text" placeholder="Country" name="Country" required>
+            <label>Your weight kg/lb:
+                <input type="text" placeholder="Weight" name="Weight" required>
             </label>
             <br>
-            <label>Email:
-                <input type="email" placeholder="Email" name="email" required>
+            <label>Your height cm/ft:
+                <input type="text" placeholder="Height" name="Height" required>
+            </label>
+            <br>
+            <label>Your age:
+                <input type="text" placeholder="Age" name="Age" required>
+            </label>
+            <br>
+            <label>What is your goal?
+                    <select name="Gender">
+                            <option value="loose weight">loose weight</option>
+                            <option value="gain weight">gain weight</option>
+                            <option value="maintain weight">maintain weight</option>
+                        </select>
             </label>
             <br>
             <label>Gender:
@@ -48,18 +57,18 @@
                 <input type="radio" name="gender" value="other">Other
             </label>
             <br>
-            <label>Are you:
-                 <input type="radio" name="are you" value="employd">Employd
-            </label>
-            <label> 
-                 <input type="radio" name="are you" value="uneployd">Unemployd
+            <label>Email:
+                <input type="email" placeholder="Email" name="email" required>
             </label>
             <br>
-            <label>Tell us about your self:
+            <label>Tell us a little bit about your expectation:
                 <textarea name="about you">  </textarea> 
             </label>
             <br>
             <input type="submit">
+            <nav>
+            <a href="index.html">Go back</a>
+             </nav>
         </form>
     </main>
 </body>
