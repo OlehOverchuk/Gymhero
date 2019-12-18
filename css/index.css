@@ -64,3 +64,6 @@ header .banner h1 {
     font-size: 5rem;
     font-family: 'Vidaloka', cursive;
 }
+section h2 {
+    text-align: center;
+}
