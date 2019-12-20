@@ -67,3 +67,7 @@ header .banner h1 {
 section h2 {
     text-align: center;
 }
+header .clock {
+    display: flex;
+    justify-content: center;
+}
